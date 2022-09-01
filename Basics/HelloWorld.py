@@ -1,11 +1,8 @@
-array = []
+operators = 1 + 2 * (3 / 4.0) % 2
 
-array.append(2137)
+square = 5 ** 2
+cube = 3 ** 3
 
-print(array)
-
-array.append(31)
-array.reverse()
-
-for x in array:
-    print(x)
+print(operators)
+print(square)
+print(cube)
