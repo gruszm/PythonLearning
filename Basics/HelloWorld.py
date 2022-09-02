@@ -1,22 +1,8 @@
-for x in range(5):
-    print(x)
+def hello():
+    print("Hello human")
 
-for x in range(5, 11):
-    print(x)
+def helloWithName(name):
+    print("Hello %s!" % name)
 
-counter = 10
-while counter > 0:
-    print(counter)
-    counter -= 1
-
-for x in range(11):
-    print(x)
-    if x == 5:
-        break
-
-for x in range(11):
-    if x % 2 == 0:
-        continue
-    else:
-        print(x)
-
+hello()
+helloWithName("Mike")
