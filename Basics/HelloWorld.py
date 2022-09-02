@@ -1,7 +1,10 @@
-name = "jake"
-name2 = "mike"
+for x in range(5):
+    print(x)
 
-print("hi %s and %s" % (name, name2))
+for x in range(5, 11):
+    print(x)
 
-realNum = 22.0/7.0
-print("%.2f is almost %f" % (realNum, realNum))
+counter = 10
+while counter > 0:
+    print(counter)
+    counter -= 1
