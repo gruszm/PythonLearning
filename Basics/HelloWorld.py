@@ -1,8 +1,12 @@
-def hello():
-    print("Hello human")
+from statistics import variance
+from tkinter import Variable
 
-def helloWithName(name):
-    print("Hello %s!" % name)
 
-hello()
-helloWithName("Mike")
+class myClass:
+    variable = "duh"
+
+    def func(self):
+        print("I say %s" % self.variable)
+
+obj = myClass()
+obj.func()
