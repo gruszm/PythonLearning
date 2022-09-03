@@ -1,4 +1,17 @@
-testSet = set([1, 2, 3, 4, 1, 2, 5, 2])
+from functools import partial
 
-for x in testSet:
-    print(x)
+def multiply(x, y):
+    return x * y
+
+doubleIt = partial(multiply, 2)
+
+print(doubleIt(3))
+
+
+def add(x, y, z):
+    return x + y + z
+
+
+addSomething = partial(add, 3, 4)
+
+print(addSomething(5))
