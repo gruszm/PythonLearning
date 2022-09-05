@@ -1,17 +1,7 @@
-from functools import partial
+tab = [1, 2, 3]
 
-def multiply(x, y):
-    return x * y
+print(tab)
 
-doubleIt = partial(multiply, 2)
+tab.append(4)
 
-print(doubleIt(3))
-
-
-def add(x, y, z):
-    return x + y + z
-
-
-addSomething = partial(add, 3, 4)
-
-print(addSomething(5))
+print(tab)
