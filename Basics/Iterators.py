@@ -49,3 +49,8 @@ it = iter(everySecond)
 
 for x in everySecond:
     print(x)
+
+print()
+
+for x in it:
+    print (x)
